@@ -17,7 +17,6 @@ int main()
     // Call the function from the calculator class here and test if they are working correctly.
 
 
-
     std::cout<<"The answer is "<< ans <<std::endl;
 
     return EXIT_SUCCESS;

@@ -5,10 +5,11 @@ project(my_calculator)
  
 include_directories(include)
  
-#set(SOURCES src/main.cpp src/calculator.cpp)
  
 file(GLOB SOURCES "src/*.cpp")
  
-#add_executable(my_calculator ${SOURCES})
+# write cmake instructions to create calculator as a shared library. 
+# and install it in usr/lib directory 
 
-add_executable(${PROJECT_NAME} ${SOURCES})
+
+# you can take help from this webpage: http://derekmolloy.ie/hello-world-introductions-to-cmake/
