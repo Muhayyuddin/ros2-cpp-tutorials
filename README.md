@@ -1,4 +1,4 @@
-# ros2-cpp-tutorials
+# Descriptions of the repositories and the tasks
 
 The repository contains 4 directories 
 1. calculator_example
@@ -10,6 +10,7 @@ The first 2 directories contains the example that we discussed in the discussion
 
 I have added two empty functions in the calculator class that are *factorial* and *fibonacci_series*. try to implement these functions and call them in the main.cpp to check if they are working fine.
 
+If you need to understand any C++ concept please take help from this webpage https://www.learncpp.com/ all the c++ related concepts are explained here in sections. you dont need to read everything just go the any perticular section/concept that you want to understand. 
 
 3. calculator_lib
 
@@ -24,6 +25,9 @@ Directory contains the camera_capture.hpp, .cpp and cmake file. your task is to 
 Create a  C++ project that just contains main.cpp and CmakeLists.txt. Inside the CmakeLists.txt, add the created shared libraries (calculator lib). In main.cpp #include the header files from the shared library and call the calculator class functions.
 
 Create a  C++ project that just contains main.cpp and CmakeLists.txt. Inside the CmakeLists.txt, add the created static library (camera_capture lib). in main.cpp #include the header files from the static library and call the functions from camera_capture class to open the camera. 
+
+
+If you have any confusion or would like to disucss please feel free to pass by my office and discuss.
 
 Good luck ...
 
